@@ -1,0 +1,55 @@
+<resources>
+    <!--Main-->
+    <string name="app_name">Изучай-HSK</string>
+    <string name="vendor_name">Китайский язык</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="main_menu_item_forbidden">Действие не разрешено</string>
+    <!--Search-->
+    <string name="search_hint">Поиск</string>
+    <string name="search_data_not_found">Ничего не найдено</string>
+    <!--Menu-->
+    <string name="menu_study">Обучение</string>
+    <string name="menu_exam">Проверка</string>
+    <string name="menu_result">Результаты</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_exit">Выход</string>
+    <!--Messages-->
+    <string name="msg_open_nav_drawer">Open navigation drawer</string>
+    <string name="msg_close_nav_drawer">Close navigation drawer</string>
+    <string name="msg_click_to_read_translation">Нажми, чтобы прочесть перевод</string>
+    <string name="msg_click_to_read_transcription">Нажми, чтобы прочесть транскрипцию</string>
+    <!--Preferences-->
+    <string name="pref_user_name_title">Имя пользователя</string>
+    <string name="pref_default_user_name">Товарищ ученик</string>
+    <!-- Sample card view for study-->
+    <string name="hsk1_translate1">любить</string>
+    <string name="hsk1_transcript1">ài</string>
+    <string name="hsk1_translate2">восемь</string>
+    <string name="hsk1_transcript2">bā</string>
+    <string name="hsk1_translate3">папа</string>
+    <string name="hsk1_transcript3">bà</string>
+    <string name="hsk1_translate4">стакан; кружка</string>
+    <string name="hsk1_transcript4">bēi zi</string>
+    <string name="hsk1_translate5">Пекин</string>
+    <string name="hsk1_transcript5">běi jīng</string>
+    <string name="hsk1_translate6">1) корень (книги)\r\n2) счётное слово для книг</string>
+    <string name="hsk1_transcript6">běn</string>
+    <string name="hsk1_translate7">не за что ( в ответ на «спасибо»)</string>
+    <string name="hsk1_transcript7">bú kè qì</string>
+    <string name="hsk1_translate8">не; нет</string>
+    <string name="hsk1_transcript8">bù</string>
+    <string name="hsk1_translate9">блюдо; овощи</string>
+    <string name="hsk1_transcript9">cài</string>
+    <string name="hsk1_translate10">чай</string>
+    <string name="hsk1_transcript10">chá</string>
+    <string name="hsk1_translate11">есть (принимать пищу)</string>
+    <string name="hsk1_transcript11">chī</string>
+    <string name="hsk1_translate12">такси</string>
+    <string name="hsk1_transcript12">chū zū chē</string>
+    <string name="hsk1_translate13">разговаривать по телефону</string>
+    <string name="hsk1_transcript13">dǎ diàn huà</string>
+
+    <!-- Toolbar.Buttons-->
+    <string name="tollbar_study_forward">Далее</string>
+    <string name="tollbar_search">Искать</string>
+</resources>

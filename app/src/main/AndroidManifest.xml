@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="learnwd.shaprj.ru.learnwd">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+
+        <!--
+        activity android:name=".exec.webview.MainActivityWebViewPdf">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity
+        -->
+        <activity
+                android:name="com.shaprj.chi.learn.activities.GuiMainExpListActivity"
+                android:configChanges="orientation|screenSize"
+                android:label="@string/app_name"
+                android:launchMode="singleTop"
+                android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.shaprj.chi.learn.activities.SettingsActivity"
+                android:label="@string/title_activity_settings"
+                android:parentActivityName="com.shaprj.chi.learn.activities.GuiMainExpListActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.shaprj.chi.learn.activities.GuiMainExpListActivity"
+            />
+        </activity>
+        <activity
+                android:name="com.shaprj.chi.learn.activities.TestDrawingViewActivity">
+        </activity>
+        <activity
+                android:name="com.shaprj.chi.learn.activities.StudyCardActivity">
+        </activity>
+        <activity
+                android:name="com.shaprj.chi.learn.activities.SearchStudyActivity"
+                android:parentActivityName="com.shaprj.chi.learn.activities.StudyCardActivity"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data
+                    android:name="android.app.searchable"
+                    android:resource="@xml/searchable" />
+        </activity>
+    </application>
+
+</manifest>

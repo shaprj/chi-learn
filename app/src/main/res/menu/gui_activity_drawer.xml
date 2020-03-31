@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single" android:id="@+id/nav_group_main">
+        <item
+            android:id="@+id/nav_study"
+            android:icon="@drawable/ic_action_study"
+            android:title="@string/menu_study">
+            <menu>
+                <item
+                    android:id="@+id/nav_study_hsk1"
+                    android:icon="@drawable/ic_action_study"
+                    android:title="@string/menu_study_HSK1"
+                />
+                <item
+                    android:id="@+id/nav_study_hsk2"
+                    android:icon="@drawable/ic_action_study"
+                    android:title="@string/menu_study_HSK2"
+                    />
+                <item
+                    android:id="@+id/nav_study_hsk3"
+                    android:icon="@drawable/ic_action_study"
+                    android:title="@string/menu_study_HSK3"
+                    />
+                <item
+                    android:id="@+id/nav_study_hsk4"
+                    android:icon="@drawable/ic_action_study"
+                    android:title="@string/menu_study_HSK4"
+                    />
+                <item
+                    android:id="@+id/nav_study_hsk5"
+                    android:icon="@drawable/ic_action_study"
+                    android:title="@string/menu_study_HSK5"
+                    />
+                <item
+                    android:id="@+id/nav_study_hsk6"
+                    android:icon="@drawable/ic_action_study"
+                    android:title="@string/menu_study_HSK6"
+                    />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/nav_exam"
+            android:icon="@drawable/ic_action_exam"
+            android:title="@string/menu_exam" />
+        <item
+            android:id="@+id/nav_result"
+            android:icon="@drawable/ic_action_result"
+            android:title="@string/menu_result" />
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/nav_group_other">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_action_settings"
+            android:title="@string/menu_settings" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_action_exit"
+            android:title="@string/menu_exit" />
+    </group>
+</menu>

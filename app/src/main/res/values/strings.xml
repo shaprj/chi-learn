@@ -1,0 +1,63 @@
+<resources>
+    <!--Main-->
+    <string name="app_name">HSK-Guide</string>
+    <string name="vendor_name">Chinese language</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="main_menu_item_forbidden">This action is forbidden</string>
+    <!--Search-->
+    <string name="search_hint">Search</string>
+    <string name="search_data_not_found">There are no results</string>
+    <!--Menu-->
+    <string name="menu_study">Study</string>
+    <string name="menu_study_HSK1">HSK 1</string>
+    <string name="menu_study_HSK2">HSK 2</string>
+    <string name="menu_study_HSK3">HSK 3</string>
+    <string name="menu_study_HSK4">HSK 4</string>
+    <string name="menu_study_HSK5">HSK 5</string>
+    <string name="menu_study_HSK6">HSK 6</string>
+    <string name="menu_exam">Exam</string>
+    <string name="menu_result">Results</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_exit">Exit</string>
+    <!--Messages-->
+    <string name="msg_open_nav_drawer">Open navigation drawer</string>
+    <string name="msg_close_nav_drawer">Close navigation drawer</string>
+    <string name="msg_click_to_read_translation">Click to read translation</string>
+    <string name="msg_click_to_read_transcription">Click to read transcription</string>
+    <!--Preferences-->
+    <string name="pref_user_name_title">User name</string>
+    <string name="pref_default_user_name">Dear learner</string>
+    <string name="action_settings">Settings</string>
+    <!-- Sample card view for study-->
+    <string name="hsk1_translate1">to love</string>
+    <string name="hsk1_transcript1">ài</string>
+    <string name="hsk1_translate2">eight</string>
+    <string name="hsk1_transcript2">bā</string>
+    <string name="hsk1_translate3">father</string>
+    <string name="hsk1_transcript3">bà</string>
+    <string name="hsk1_translate4">glass; cup</string>
+    <string name="hsk1_transcript4">bēi zi</string>
+    <string name="hsk1_translate5">Beijing</string>
+    <string name="hsk1_transcript5">běi jīng</string>
+    <string name="hsk1_translate6">1) root (of thr book)\r\n2) word for books count</string>
+    <string name="hsk1_transcript6">běn</string>
+    <string name="hsk1_translate7">not at all ( in answer for «Thank you»)</string>
+    <string name="hsk1_transcript7">bú kè qì</string>
+    <string name="hsk1_translate8">no; not</string>
+    <string name="hsk1_transcript8">bù</string>
+    <string name="hsk1_translate9">dish; vegetables</string>
+    <string name="hsk1_transcript9">cài</string>
+    <string name="hsk1_translate10">tea</string>
+    <string name="hsk1_transcript10">chá</string>
+    <string name="hsk1_translate11">to eat (eating)</string>
+    <string name="hsk1_transcript11">chī</string>
+    <string name="hsk1_translate12">taxi</string>
+    <string name="hsk1_transcript12">chū zū chē</string>
+    <string name="hsk1_translate13">talk on phone</string>
+    <string name="hsk1_transcript13">dǎ diàn huà</string>
+    <!-- Toolbar.Buttons-->
+    <string name="tollbar_study_forward">Forward</string>
+    <string name="tollbar_search">Search</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

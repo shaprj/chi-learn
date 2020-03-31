@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.shaprj.chi.learn.components.ScrollViewWithEvents xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrolledCardView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardView">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context=".activities.StudyCardActivity">
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitCenter"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/hsk1_ms_1" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:id="@+id/thumbnail1"
+                android:layout_below="@+id/thumbnail">
+                <ImageView
+                    android:id="@+id/writesymbs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/hsk1_ws_1" />
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/translate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/thumbnail1"
+                android:maxLines="3"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text="@string/hsk1_translate1"
+                android:textColor="#222"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+            <TextView
+                android:id="@+id/transcript"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/translate"
+                android:maxLines="3"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text="@string/hsk1_transcript1"
+                android:textColor="#666"
+                android:textSize="16dp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</com.shaprj.chi.learn.components.ScrollViewWithEvents>

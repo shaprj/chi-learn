@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group android:id="@+id/btn_study_group">
+        <!--item
+            android:id="@+id/action_forward"
+            android:orderInCategory="100"
+            android:icon="@drawable/ic_forward_study"
+            android:title="@string/tollbar_study_forward"
+            app:showAsAction="always" /-->
+        <item android:id="@+id/action_search"
+            android:orderInCategory="100"
+            android:icon="@drawable/ic_search"
+            android:title="@string/tollbar_search"
+            app:showAsAction="collapseActionView|ifRoom"
+            app:actionViewClass="android.support.v7.widget.SearchView"
+            android:voiceSearchMode="showVoiceSearchButton|launchRecognizer"
+            />
+    </group>
+</menu>
