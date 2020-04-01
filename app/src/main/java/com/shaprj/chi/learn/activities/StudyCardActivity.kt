@@ -6,12 +6,12 @@ import android.support.v7.widget.SearchView
 import android.view.Menu
 import android.view.MenuItem
 import android.view.MotionEvent
+import com.shaprj.chi.learn.R
 import com.shaprj.chi.learn.activities.abs.ActivityBase
 import com.shaprj.chi.learn.components.ScrollViewListener
 import com.shaprj.chi.learn.components.ScrollViewWithEvents
 import com.shaprj.chi.learn.fragments.maincard.MainCardFragment
 import com.shaprj.chi.learn.scenarios.ScenarioStudyHSK1
-import learnwd.shaprj.ru.learnwd.R
 
 class StudyCardActivity : ActivityBase(), ScrollViewListener {
 

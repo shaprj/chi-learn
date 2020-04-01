@@ -10,11 +10,11 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.ExpandableListView
 import android.widget.Toast
+import com.shaprj.chi.learn.R
 import com.shaprj.chi.learn.activities.abs.ActivityBase
 import com.shaprj.chi.learn.adapters.ExpandableListAdapter
 import com.shaprj.chi.learn.models.menu.ExpandedMenuItemModel
 import com.shaprj.chi.learn.models.menu.MenuItemModel
-import learnwd.shaprj.ru.learnwd.R
 import java.util.*
 
 /*

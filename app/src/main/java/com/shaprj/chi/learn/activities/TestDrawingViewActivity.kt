@@ -5,10 +5,10 @@ import android.graphics.Paint
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import com.shaprj.chi.learn.R
 import com.shaprj.chi.learn.activities.abs.ActivityBase
 import com.shaprj.chi.learn.components.DrawingView
 import com.shaprj.chi.learn.fragments.drawing.DrawingFragment
-import learnwd.shaprj.ru.learnwd.R
 
 /*
  * Created by O.Shalaevsky on 5/6/2018

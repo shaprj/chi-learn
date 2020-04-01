@@ -10,9 +10,9 @@ import android.widget.BaseExpandableListAdapter
 import android.widget.ExpandableListView
 import android.widget.ImageView
 import android.widget.TextView
+import com.shaprj.chi.learn.R
 import com.shaprj.chi.learn.models.menu.ExpandedMenuItemModel
 import com.shaprj.chi.learn.models.menu.MenuItemModel
-import learnwd.shaprj.ru.learnwd.R
 import java.util.*
 
 /*

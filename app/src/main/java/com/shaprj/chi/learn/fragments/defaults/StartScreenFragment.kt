@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.MediaController
 import android.widget.VideoView
-import learnwd.shaprj.ru.learnwd.R
+import com.shaprj.chi.learn.R
 
 class StartScreenFragment : Fragment() {
 

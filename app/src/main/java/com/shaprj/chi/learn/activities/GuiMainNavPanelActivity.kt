@@ -10,9 +10,9 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
+import com.shaprj.chi.learn.R
 import com.shaprj.chi.learn.activities.abs.ActivityBase
 import com.shaprj.chi.learn.fragments.defaults.StartScreenFragment
-import learnwd.shaprj.ru.learnwd.R
 
 class GuiMainNavPanelActivity : ActivityBase(), NavigationView.OnNavigationItemSelectedListener {
 

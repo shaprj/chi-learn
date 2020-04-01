@@ -8,13 +8,13 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import com.shaprj.chi.learn.R
 import com.shaprj.chi.learn.activities.StudyCardActivity
 import com.shaprj.chi.learn.fragments.abs.AbstractCardIterator
 import com.shaprj.chi.learn.fragments.maincard.abs.AbstractBackwardMainCardIterator
 import com.shaprj.chi.learn.fragments.maincard.abs.AbstractForwardMainCardIterator
 import com.shaprj.chi.learn.fragments.maincard.abs.AbstractSearchMainCardIterator
 import com.shaprj.chi.learn.models.maincard.StudyCardModel
-import learnwd.shaprj.ru.learnwd.R
 
 class MainCardFragment : Fragment() {
 

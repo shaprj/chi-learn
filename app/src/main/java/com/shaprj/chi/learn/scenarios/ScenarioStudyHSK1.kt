@@ -1,8 +1,8 @@
 package com.shaprj.chi.learn.scenarios
 
 
+import com.shaprj.chi.learn.R
 import com.shaprj.chi.learn.models.maincard.StudyCardModel
-import learnwd.shaprj.ru.learnwd.R
 import java.util.*
 
 /*

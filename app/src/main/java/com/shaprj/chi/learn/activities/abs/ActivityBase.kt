@@ -9,8 +9,8 @@ import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
+import com.shaprj.chi.learn.R
 import com.shaprj.chi.learn.exceptions.CommonExceptionHandler
-import learnwd.shaprj.ru.learnwd.R
 
 /**
  * Created by E.Kostrikov on 11.05.2016.

@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import learnwd.shaprj.ru.learnwd.R
+import com.shaprj.chi.learn.R
 
 class SampleChiSymbolFragment : Fragment() {
 

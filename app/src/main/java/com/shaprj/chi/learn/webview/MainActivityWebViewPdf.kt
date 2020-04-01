@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import learnwd.shaprj.ru.learnwd.R
+import com.shaprj.chi.learn.R
 
 class MainActivityWebViewPdf : AppCompatActivity() {
 

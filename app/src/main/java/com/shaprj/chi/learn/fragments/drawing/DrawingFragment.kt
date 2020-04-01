@@ -5,7 +5,7 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import learnwd.shaprj.ru.learnwd.R
+import com.shaprj.chi.learn.R
 
 /*
  * Created by O.Shalaevsky on 5/6/2018

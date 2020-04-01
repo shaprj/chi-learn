@@ -5,8 +5,8 @@ import android.os.Build
 import android.os.Bundle
 import android.preference.PreferenceFragment
 import android.view.MenuItem
+import com.shaprj.chi.learn.R
 import com.shaprj.chi.learn.activities.abs.AppCompatPreferenceActivity
-import learnwd.shaprj.ru.learnwd.R
 
 class SettingsActivity : AppCompatPreferenceActivity() {
 

@@ -2,9 +2,9 @@ package com.shaprj.chi.learn.fragments.maincard.abs
 
 import android.support.v4.app.Fragment
 import android.widget.Toast
+import com.shaprj.chi.learn.R
 import com.shaprj.chi.learn.fragments.abs.AbstractCardIterator
 import com.shaprj.chi.learn.models.maincard.StudyCardModel
-import learnwd.shaprj.ru.learnwd.R
 
 /*
  * Created by O.Shalaevsky on 5/3/2018
