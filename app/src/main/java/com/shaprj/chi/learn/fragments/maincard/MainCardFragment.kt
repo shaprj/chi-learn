@@ -22,7 +22,7 @@ class MainCardFragment : Fragment() {
 
     private val iterators = arrayOf<AbstractCardIterator<StudyCardModel>>(forwardIterator, backwardIterator, searchIterator)
     private var pos = 0
-    private var list: List<StudyCardModel>? = null
+    private var studyList: List<StudyCardModel>? = null
 
     private val forwardIterator: AbstractCardIterator<StudyCardModel>
         get() = object : AbstractForwardMainCardIterator() {
@@ -33,7 +33,7 @@ class MainCardFragment : Fragment() {
                 }
 
             override val list: List<StudyCardModel>?
-                get() = list
+                get() = studyList
         }
 
     private val backwardIterator: AbstractCardIterator<StudyCardModel>
@@ -45,7 +45,7 @@ class MainCardFragment : Fragment() {
                 }
 
             override val list: List<StudyCardModel>?
-                get() = list
+                get() = studyList
         }
 
     private val searchIterator: AbstractCardIterator<StudyCardModel>
@@ -58,7 +58,7 @@ class MainCardFragment : Fragment() {
                 }
 
             override val list: List<StudyCardModel>?
-                get() = list
+                get() = studyList
         }
 
     private val viewInt: Int
@@ -128,7 +128,7 @@ class MainCardFragment : Fragment() {
         fun getInstance(list: List<StudyCardModel>, iteratorActiveType: InfiniteIterators): MainCardFragment {
             if (fragment == null) {
                 fragment = MainCardFragment()
-                fragment!!.list = list
+                fragment!!.studyList = list
             }
             fragment!!.iteratorActiveType = iteratorActiveType
             return fragment as MainCardFragment
@@ -137,7 +137,7 @@ class MainCardFragment : Fragment() {
         fun getInstance(list: List<StudyCardModel>, word: String): MainCardFragment {
             if (fragment == null) {
                 fragment = MainCardFragment()
-                fragment!!.list = list
+                fragment!!.studyList = list
             }
             fragment!!.iteratorActiveType = InfiniteIterators.Search
             val iterator = fragment!!.iterator() as AbstractSearchMainCardIterator?

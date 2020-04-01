@@ -135,19 +135,9 @@ class GuiMainExpListActivity : ActivityBase() {
     }
 
     private fun isMenuItemAllowed(layoutId: Int?): Boolean {
-        return if (Arrays.asList(
-                *arrayOf<Int>(
-                    R.id.nav_study,
-                    R.id.nav_exam,
-                    R.id.nav_study_hsk1,
-                    R.id.nav_settings,
-                    R.id.nav_exit
-                )
-            ).contains(layoutId)
-        )
-            true
-        else
-            false
+        return Arrays.asList(
+            R.id.nav_study, R.id.nav_exam, R.id.nav_study_hsk1, R.id.nav_settings, R.id.nav_exit
+        ).contains(layoutId)
     }
 
     private fun changeFragment(drawerView: View) {
