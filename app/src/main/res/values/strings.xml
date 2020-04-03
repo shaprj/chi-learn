@@ -1,7 +1,7 @@
 <resources>
     <!--Main-->
     <string name="app_name">HSK-Guide</string>
-    <string name="vendor_name">Chinese language</string>
+    <string name="vendor_name">Hanyu Shuiping Kaoshi\nExam Preparation</string>
     <string name="title_activity_settings">Settings</string>
     <string name="main_menu_item_forbidden">This action is forbidden</string>
     <!--Search-->

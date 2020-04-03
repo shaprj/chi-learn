@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="100dp"
     android:gravity="bottom"
     android:background="@drawable/fon2"
@@ -12,23 +12,26 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@mipmap/ic_launcher"
-            android:scaleType="fitXY"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true" />
+                android:id="@+id/imageView"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_launcher6"
+                android:background="@android:color/transparent"
+                android:alpha=".75"
+                android:scaleType="fitXY"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"/>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/vendor_name"
-            android:textColor="#000000"
-            android:gravity="end"
-            android:layout_toLeftOf="@+id/imageView"
-            android:layout_margin="20dp"
-            android:textSize="20dp"/>
+                android:layout_width="303dp"
+                android:layout_height="69dp"
+                android:text="@string/vendor_name"
+                android:textColor="@color/colorAccent"
+                android:gravity="end"
+                android:layout_toLeftOf="@+id/imageView"
+                android:lineSpacingExtra="5dp"
+                android:textSize="18dp" android:layout_marginEnd="0dp" android:layout_marginTop="20dp"
+                android:layout_marginStart="0dp" android:layout_marginBottom="0dp" android:layout_marginRight="0dp"/>
     </RelativeLayout>
 
 </LinearLayout>
